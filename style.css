@@ -1,0 +1,129 @@
+/*reset*/
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #dda0dd	;
+
+}
+
+h1, h2, h3, h4, h5{
+    color:#333;
+}
+
+p, label{
+    color:#444;
+}
+
+input{
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+
+input[type=text], input[type=number], input[type=date], input[type=file]{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+    width: 400px;
+}
+
+/*cabecalho*/
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color:#ba55d3;
+}
+
+.header h3{
+    color:white;
+    margin-top: 0;
+}
+
+/*corpo formulario*/
+
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin:0;
+}
+
+.required-field{
+    color: red;
+}
+
+.box-input{
+    margin-bottom: 30px;
+
+}
+
+.block{
+    display: block;
+}
+
+.optional_box{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.option_list{
+    padding-left: 0;
+}
+
+.optional_list li{
+    list-style: none;
+}
+
+.btn-submit{
+    background-color: darkorchid;
+    color:black;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-submit:hover{
+    background-color: white;
+    border-color: #dda0dd;
+    color: #dda0dd;
+}
+
+/*container*/
+
+.form-container{
+    background-color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -62px;
+}
+
+/*cabecalho do formulario*/
+
+.form-header{
+    border-bottom: 1px solid #dda0dd;
+    height: 45px;
+}
+
+.form-header p {
+    color: #dda0dd;
+    border-bottom: 2px solid#dda0dd;
+    width: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+
+}
